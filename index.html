@@ -117,11 +117,17 @@
 
             <div class="input-wrapper">
               <label for="phone">Telefone</label>
-              <input type="tel" name="phone" id="phone" pattern="\(?\d{2}\)?\s?\d{4,5}-?\d{4}" maxlength="15">
-              
+              <input type="tel" name="phone" id="phone" pattern="\(?\d{2}\)?\s?\d{4,5}-?\d{4}" maxlength="15" placeholder="(10) 98765-4321">
             </div>
 
-
+            <div class="input-wrapper">
+              <label for="mail">Email</label>
+              <input type="email" name="mail" id="mail" required>
+              <div class="error">
+                <img src="assets/icons/alert-circle.svg" alt="Ícone de alerta vermelho">
+                <span>Insira um e-mail válido</span>
+              </div>
+            </div>
           </fieldset>
 
 
